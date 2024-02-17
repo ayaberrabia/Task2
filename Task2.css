@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: hwb(0 94% 2%);
+}
+.container{
+    margin: 10px;
+}
+.pagination a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.information{
+    text-decoration: none;
+    color: rgb(66, 114, 179);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    background-color: rgba(225, 165, 165, 0.759);
+    text-align: center;
+    width:100%;
+    
+}
+.active{
+    background-color: rgba(164, 89, 137, 0.759);
+    font-weight: bold; 
+}
+.pagination{
+    display: flex; 
+    height: 80px; 
+   
+}
+.pagination .box:hover:not(.active){
+    background-color: rgba(164, 89, 137, 0.759); 
+    font-weight: bold; 
+}
+.img{
+   display: flex;
+   justify-content: center;
+   margin:40px;
+}
+img{
+    width: 1000px;
+    height:700px ;
+}
+
+.h2{ font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
